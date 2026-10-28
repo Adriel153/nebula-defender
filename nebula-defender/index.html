@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Nebula Defender</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="stage">
+    <canvas id="game" width="480" height="720" aria-label="Nebula Defender"></canvas>
+  </main>
+
+  <!-- A ORDEM DOS SCRIPTS IMPORTA. Para criar uma fase nova, adicione o arquivo em js/levels/ e um <script> abaixo. -->
+  <script src="js/config.js"></script>
+
+  <script src="js/core/utils.js"></script>
+  <script src="js/core/input.js"></script>
+  <script src="js/core/audio.js"></script>
+  <script src="js/core/particles.js"></script>
+  <script src="js/core/effects.js"></script>
+
+  <script src="js/entities/bullet.js"></script>
+  <script src="js/entities/player.js"></script>
+  <script src="js/entities/enemy.js"></script>
+  <script src="js/entities/boss.js"></script>
+  <script src="js/entities/powerup.js"></script>
+
+  <script src="js/levels/level1.js"></script>
+  <script src="js/levels/level2.js"></script>
+  <script src="js/levels/level3.js"></script>
+  <script src="js/levels/level4.js"></script>
+  <script src="js/levels/level5.js"></script>
+
+  <script src="js/core/background.js"></script>
+  <script src="js/core/levelManager.js"></script>
+  <script src="js/ui/hud.js"></script>
+  <script src="js/ui/screens.js"></script>
+  <script src="js/core/game.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
